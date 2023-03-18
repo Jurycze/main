@@ -16,12 +16,11 @@
       <a href="https://jurycze.github.io/kazos/" style="color: #fff; text-decoration: none; margin-top: 10px; display: block;">
         <button style="background-color: #7289DA; color: #fff; padding: 8px 16px; border: none; border-radius: 4px; width: 100%;">Projekt Kazoš</button>
       </a>
-      <form id="myForm">
-        <label for="inputText">Máte návrh na rozšíření webu? Napište nám:</label><br>
-        <textarea id="inputText" name="inputText" rows="4" cols="50"></textarea><br>
-        <button type="submit" onclick="submitForm()">Odeslat</button>
-      </form>
-      <script src="script.js"></script>
+<form action="submit.php" method="post">
+  <label for="inputText">Máte návrh na rozšíření webu? Napište nám:</label><br>
+  <textarea id="inputText" name="inputText" rows="4" cols="50"></textarea><br>
+  <button type="submit">Odeslat</button>
+</form>
     </div>
   </body>
 </html>
