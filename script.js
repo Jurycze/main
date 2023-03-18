@@ -1,6 +1,6 @@
 function submitForm() {
   var request = new XMLHttpRequest();
-  request.open("POST", "https://discord.com/api/webhooks/1086758674548129844/JCUCc_2_8fCmCCCdEPYRUMuuIopj--oMNvP8glv3i4EhvVVPs3-p0VXTGqyNiA2NmWln", true);
+  request.open("POST", "https://discord.com/api/webhooks/1081617393870196776/fDKBO8XvXcwAJE5EBNth6OghBVBPJzqJ_0vcVoh9m_Tm-rdtaBd0qELCxAbACE5e1r3h", true);
   request.setRequestHeader('Content-type', 'application/json');
 
   var inputText = document.getElementById("inputText").value;
