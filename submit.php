@@ -4,7 +4,7 @@ if($_POST){
     $email = $_POST['email'];
     $inputText = $_POST['inputText'];
 
-    $to = "j.tuzar@centrum.cz";
+    $to = "jajatuz2008@gmail.com";
     $subject = "Nový návrh na webu";
     $body = "Jméno: $name\nEmail: $email\nNávrh: $inputText";
 
