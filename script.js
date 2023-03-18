@@ -1,17 +1,14 @@
 function submitForm() {
-  const inputText = document.getElementById("inputText").value;
-  const url = "https://discord.com/api/webhooks/1086753777530454017/VI4T95hQu3qRqkeaWG8ddoCbgIasL3LGHfrfVkdO3gIsm8xVStUVCr8LfkaQV2HM3Qt8";
-  const data = {
+  var request = new XMLHttpRequest();
+  request.open("POST", "https://discord.com/api/webhooks/1086758674548129844/JCUCc_2_8fCmCCCdEPYRUMuuIopj--oMNvP8glv3i4EhvVVPs3-p0VXTGqyNiA2NmWln", true);
+  request.setRequestHeader('Content-type', 'application/json');
+
+  var inputText = document.getElementById("inputText").value;
+  var params = {
+    username: "Web Form",
+    avatar_url: "",
     content: inputText
-  };
-  
-  fetch(url, {
-    method: "POST",
-    body: JSON.stringify(data),
-    headers: {
-      "Content-Type": "application/json"
-    }
-  })
-  .then(response => console.log(response))
-  .catch(error => console.error(error));
+  }
+
+  request.send(JSON.stringify(params));
 }
