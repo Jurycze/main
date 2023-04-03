@@ -1,6 +1,9 @@
-background-color: #999999;
-text-shadow: 5px 5px 10px #149898;
-text-decoration: underline solid;
-letter-spacing: 1px;
-text-align: center;
-white-space: pre-line;
+.class { 
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+  background-color: #999999;
+  text-shadow: 5px 5px 10px #149898;
+  text-decoration: underline solid;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: pre-line;
+}
