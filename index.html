@@ -32,8 +32,18 @@
   <div class="slidecontainer">
     <input type="range" min="1" max="100" value="50">
   <label class="switch">
-    <input type="checkbox">
+    <input id="myCheckbox" type="checkbox">
     <span class="slider round"></span>
+    <script>
+       var checkbox = document.getElementById("myCheckbox");
+       checkbox.addEventListener("change", function() {
+       if (this.checked) {
+       document.body.style.backgroundColor = "white";
+       } else {
+       document.body.style.backgroundColor = "";
+       }
+       });
+     </script>
   </label>
       <br>
       <br>
