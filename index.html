@@ -20,23 +20,23 @@
       </div>
       <br>
       <br>
-  <div style="background-color: #5B0000; color: #fff;padding: 2px;">
-  <label class="switch">
-    <input id="myCheckbox" type="checkbox">
-    <span class="slider round"></span>
-    <script>
-       var checkbox = document.getElementById("myCheckbox");
-       checkbox.addEventListener("change", function() {
-       if (this.checked) {
-       document.body.style.backgroundColor = "#FF927B";
-       text.style.color = "black";
-       } else {
-       document.body.style.backgroundColor = "#830000";
-       text.style.color = "#9a9ea1";
-       }
-       });
-     </script>
-    <h3> Click for activation "White mode" </h3>
+  <div style="background-color: #5B0000; color: #fff;padding: 80px 160px; border-radius: 5px">
+  <h3> Click for activation "White mode" </h3>
+    <label class="switch">
+      <input id="myCheckbox" type="checkbox">
+      <span class="slider round"></span>
+        <script>
+         var checkbox = document.getElementById("myCheckbox");
+         checkbox.addEventListener("change", function() {
+         if (this.checked) {
+         document.body.style.backgroundColor = "#FF927B";
+         text.style.color = "black";
+         } else {
+         document.body.style.backgroundColor = "#830000";
+         text.style.color = "#9a9ea1";
+         }
+         });
+       </script>
   </div>
     
   </label>
